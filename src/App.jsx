@@ -1,0 +1,21 @@
+import {useState} from 'react';
+import './App.css';
+import Biglietto from './components/Biglietto.jsx';
+import MeteoInfo from './components/MeteoInfo.jsx';
+import MeteoRaffa from './components/MeteoRaffa.jsx';
+import Card from './components/Card/Card.jsx';
+import Card2 from './components/Card2/Card2.jsx';
+
+function App() {
+  return (
+    <>
+      <h1>PRIMO REACT</h1>
+      <Biglietto />
+      <MeteoInfo />
+      <Card />
+      <Card2 />
+    </>
+  );
+}
+
+export default App;
