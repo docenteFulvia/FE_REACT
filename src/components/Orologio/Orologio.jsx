@@ -18,13 +18,3 @@ function OrologioFiglio() {
 } //fine funzione figlia
 
 //Componente padre che monta e smonta la funzione orologio
-
-export default function Orologio() {
-  const [visible, setVisibile] = useState(true);
-
-  return (
-    <div>
-      <OrologioFiglio />
-    </div>
-  );
-}
